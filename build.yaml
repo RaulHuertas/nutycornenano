@@ -20,12 +20,13 @@
 ---
 include:
 
-  #DONGLE
+#####DONGLE########
   - board: seeeduino_xiao_ble
     shield: nutycornenano_dongle rgbled_adapter 
     snippet: studio-rpc-usb-uart 
     cmake-args: -DCONFIG_ZMK_STUDIO=y 
-  #HALVES
+
+######HALVES#######
   - board: seeeduino_xiao_ble
     shield: nutycornenano_left rgbled_adapter
     snippet: studio-rpc-usb-uart
@@ -35,6 +36,11 @@ include:
     shield: nutycornenano_right rgbled_adapter 
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  #RESET
+######RESET
   - board: seeeduino_xiao_ble
     shield: settings_reset
+
+
+
+
+

@@ -1,0 +1,13 @@
+file_format: "1"
+id: nutycornenano
+name: NutyCorneNano
+type: shield
+url: https://github.com/RaulHuertas/nutycornenano/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - studio
+siblings:
+  - nutycornenano_left
+  - nutycornenano_right

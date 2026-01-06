@@ -36,10 +36,10 @@
 
         layer_1 {
             bindings = <
-  &kp Q           &kp W           &kp E             &kp R        &kp T           &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9         &kp KP_MINUS
-  &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G           &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp KP_PLUS
-  &kp Z           &kp X           &kp C             &kp V        &kp B           &kp N            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp KP_ENTER
-  &studio_unlock  &mo 1           &kp C_PLAY        &kp C_MUTE   &studio_unlock  &kp DEL          &kp N0        &kp KP_DOT    &kp BACKSPACE  &kp ENTER
+  &kp PAGE_UP       &kp HOME   &kp END     &kp PAGE_DOWN    &kp RBKT              &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9         &kp KP_MINUS
+  &kp GRAVE         &kp EQUAL  &kp MINUS   &kp NON_US_HASH  &kp NON_US_BACKSLASH  &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp KP_PLUS
+  &kp LEFT_BRACKET  &kp X      &kp C       &kp V            &kp B                 &kp N            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp KP_ENTER
+  &studio_unlock    &mo 1      &kp C_PLAY  &kp C_MUTE       &studio_unlock        &kp DEL          &kp N0        &kp KP_DOT    &kp BACKSPACE  &kp ENTER
             >;
         };
 
